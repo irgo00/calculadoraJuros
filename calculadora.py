@@ -53,7 +53,7 @@ with tab1:
             vi, vm, pr, tx = format_input_data(vi, vm, pr, tx)
             mont, juros = calcular(vi, vm, pr, tx)
             modal_resultado(mont, juros)
-            adicionar_historico(vi, vm, pr,tx,mont, juros)
+            adicionar_historico(vi, vm, pr,tx,juros, mont)
 
     if st.button("Calcular mês a mês"):
         if vi != "" and tx != "" and pr != "":
