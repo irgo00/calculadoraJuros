@@ -1,11 +1,26 @@
-Projeto feito em Python para calcular investimentos, onde o usuário insere um valor inicial, um valor mensal (se houver), a taxa de juros de rendimento (em número decimal, EX: 0.01 = 1%) e o prazo do investimento.
+# Calculadora de Investimentos 💰📈
+Este projeto é uma aplicação simples desenvolvida com Streamlit e Pandas para calcular o rendimento de investimentos com base em um valor inicial, contribuições mensais, taxa de juros e prazo.
 
-Ao calcular, o sistema exibe o valor final do investimento e a quantidade de juros rendido, salvando o histórico de todos os cálculos em um arquivo .csv.
+## 📌 Funcionalidades
+✅ Cálculo do montante final com base nos dados inseridos.
+✅ Exibição do rendimento mês a mês para melhor acompanhamento.
+✅ Geração de histórico de cálculos em um arquivo .csv.
+✅ Interface interativa e intuitiva utilizando Streamlit.
 
-O sistema também possui a funcionalidade de ver o rendimento do montante mês a mês.
+## 🛠️ Tecnologias Utilizadas
+Python
+Streamlit (para a interface)
+Pandas (para manipulação de dados e armazenamento do histórico)
+## 🚀 Como Usar
+Acesse o site da calculadora: Clique aqui
+Insira:
+Valor inicial do investimento
+Aporte mensal (se houver)
+Taxa de juros (em decimal, ex: 0.01 = 1%)
+Prazo do investimento (em meses)
+Clique em Calcular e veja os resultados instantaneamente!
+## 🗃️ Histórico de Cálculos
+Os cálculos são armazenados automaticamente em um arquivo .csv, permitindo análise futura dos investimentos simulados.
 
--Ferramentas: Streamlit e Pandas.
-
-(Projeto feito com o intuito de aprender as funcionalidades básicas do Streamlit).
-
-Link do site: https://calculadorajuros.streamlit.app
+## 🎯 Objetivo
+Este projeto foi desenvolvido com o intuito de aprender e explorar as funcionalidades básicas do Streamlit, além de fornecer uma ferramenta prática para simulação de investimentos.
